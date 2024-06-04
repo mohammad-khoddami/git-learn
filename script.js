@@ -5,7 +5,7 @@ function * idMaker() {
     }
   }
   
-  const gen = idMaker();
+  const gen = idMaker()
 
   for (let i = 0; i < 20; i++) {
     console.log(gen.next().value); // 0    
